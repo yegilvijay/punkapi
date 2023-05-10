@@ -1,0 +1,18 @@
+.beer-table-container {
+    margin-top: 20px;
+  }
+  
+  .filter-form {
+    margin-bottom: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-link {
+    cursor: pointer;
+  }
+  

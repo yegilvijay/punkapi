@@ -1,15 +1,16 @@
-import './App.css';
-import BeerTable from './pages/BeerTable';
+import React from 'react';
+import BeerTable from './components/BeerTable';
+import { Provider } from 'react-redux';
+import store from './store/store';
 
 function App() {
-
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <BeerTable></BeerTable>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div>
+        <h1>Beer App</h1>
+        <BeerTable />
+      </div>
+    </Provider>
   );
 }
 

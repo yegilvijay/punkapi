@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "datatablewithredux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,14 +8,17 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "date-fns": "^2.30.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-datepicker": "^4.11.0",
     "react-dom": "^18.2.0",
-    "react-month-picker": "^2.2.1",
+    "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
-    "sass": "^1.62.1",
-    "scss": "^0.2.4",
-    "simple-react-month-picker": "^0.1.8",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
